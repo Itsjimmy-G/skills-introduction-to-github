@@ -1,0 +1,196 @@
+JavaScript
+Complete Learning Roadmap
+From zero to mastery  -  Check off each topic as you complete it
+BEGINNER	INTERMEDIATE	ADVANCED
+ 
+Tip: Work through each phase in order. Do not rush to frameworks. Understanding the fundamentals will make everything else easier and faster to learn. Estimated times assume one to two focused hours per day.
+ 
+Phase 1  -  The Foundations
+Start here without exception. These concepts appear in every single JavaScript program ever written.
+Done	Topic	Difficulty	Est. Time
+[ ]	Variables and Data Types
+var, let, const — numbers, strings, booleans, null, undefined, symbols	Beginner	1 - 2 days
+[ ]	Operators and Expressions
+Arithmetic, comparison, logical, assignment, and ternary operators	Beginner	1 day
+[ ]	Control Flow
+if / else, switch statements, for loops, while loops, break and continue	Beginner	2 - 3 days
+[ ]	Functions
+Declarations, expressions, arrow functions, parameters, default values, return	Beginner	2 - 3 days
+[ ]	Scope and Hoisting
+Global vs local scope, block scope, how JS hoists variables and functions	Beginner	2 days
+[ ]	Arrays
+Creating, accessing, iterating — map, filter, reduce, find, forEach	Beginner	3 - 4 days
+[ ]	Objects
+Key-value pairs, dot vs bracket notation, methods, nested objects	Beginner	3 - 4 days
+[ ]	String Methods
+Slice, split, join, trim, includes, template literals, string interpolation	Beginner	1 - 2 days
+[ ]	Error Handling
+try / catch / finally, throwing errors, built-in Error types	Beginner	1 - 2 days
+ 
+Phase 2  -  Core JavaScript
+This is where real developers are made. Master this before touching any framework.
+Done	Topic	Difficulty	Est. Time
+[ ]	The DOM
+Selecting elements, traversing the tree, innerHTML, event listeners	Beginner	4 - 5 days
+[ ]	DOM Manipulation
+createElement, appendChild, removeChild, classList, setting attributes	Beginner	3 - 4 days
+[ ]	Closures
+Lexical scope, function factories, the classic counter example explained	Intermediate	3 - 4 days
+[ ]	Higher-Order Functions
+Functions that accept or return other functions, callbacks explained deeply	Intermediate	2 - 3 days
+[ ]	Prototypes and Inheritance
+Prototype chain, Object.create(), how JS inheritance actually works under the hood	Intermediate	3 - 4 days
+[ ]	ES6 Classes
+class syntax, constructor, extends, super keyword, static methods	Intermediate	2 - 3 days
+[ ]	Destructuring
+Array and object destructuring, default values, renaming variables	Intermediate	1 - 2 days
+[ ]	Spread and Rest Operators
+The ... operator for copying arrays, merging objects, variadic functions	Intermediate	1 day
+[ ]	Modules (ESM)
+import and export, named vs default exports, how module bundlers work	Intermediate	2 days
+[ ]	The this Keyword
+Implicit, explicit, new binding rules — why this changes and how arrow functions fix it	Intermediate	3 - 4 days
+[ ]	Regular Expressions
+Patterns, flags, test / match / replace, real-world use cases	Intermediate	3 - 4 days
+ 
+Phase 3  -  Asynchronous JavaScript  (Most Important Phase)
+Surveys consistently rank async concepts as the hardest topic for JS developers — and the most critical to understand. Take your time here.
+Done	Topic	Difficulty	Est. Time
+[ ]	The Event Loop
+Call stack, heap, message queue — understanding how JS is single-threaded	Intermediate	2 - 3 days
+[ ]	Callbacks
+Async operations via callbacks, understanding callback hell and why it exists	Intermediate	2 days
+[ ]	Promises
+Creating promises, .then() / .catch() / .finally(), promise chaining	Intermediate	3 - 4 days
+[ ]	async and await
+Writing async code that reads like synchronous code, error handling patterns	Intermediate	3 - 4 days
+[ ]	Fetch API
+Making HTTP requests from the browser, reading JSON responses, handling errors	Intermediate	2 - 3 days
+[ ]	Async Error Handling
+try / catch with await, Promise.allSettled, graceful failure patterns	Intermediate	2 days
+[ ]	Promise.all, race, any
+Running parallel async operations, racing promises, first-success patterns	Advanced	2 days
+[ ]	Web Workers
+Offloading CPU-intensive tasks, postMessage communication, shared workers	Advanced	2 - 3 days
+ 
+Phase 4  -  Browser and Web APIs
+These powerful APIs are built into the browser — no installation required. They are what make JavaScript unique.
+Done	Topic	Difficulty	Est. Time
+[ ]	localStorage and sessionStorage
+Persisting data on the client, JSON serialization, storage limits	Beginner	1 day
+[ ]	Cookies
+Setting, reading, expiry dates, security flags like HttpOnly and Secure	Intermediate	1 - 2 days
+[ ]	Geolocation API
+Getting user coordinates, handling permissions, accuracy options	Beginner	1 day
+[ ]	Canvas API
+Drawing 2D graphics programmatically, animations, pixel-level manipulation	Intermediate	3 - 5 days
+[ ]	Intersection Observer
+Lazy loading images, infinite scroll, detecting when elements enter the viewport	Intermediate	1 - 2 days
+[ ]	Web Sockets
+Real-time two-way communication between client and server	Advanced	3 - 4 days
+[ ]	Service Workers
+Background sync, offline caching strategies, foundation of Progressive Web Apps	Advanced	4 - 5 days
+[ ]	WebRTC
+Peer-to-peer audio and video streaming, data channels	Advanced	5 - 7 days
+ 
+Phase 5  -  Node.js and Backend Development
+Take JavaScript to the server. Node.js powers companies including Netflix, LinkedIn, PayPal, and NASA.
+Done	Topic	Difficulty	Est. Time
+[ ]	Node.js Fundamentals
+How Node works, the global object, process, __dirname, CommonJS modules	Intermediate	3 - 4 days
+[ ]	npm and package.json
+Installing packages, writing scripts, version ranges, devDependencies	Beginner	1 - 2 days
+[ ]	File System Module
+Reading and writing files, synchronous vs asynchronous, streams	Intermediate	2 - 3 days
+[ ]	HTTP Module
+Creating a basic server without any framework, understanding req and res	Intermediate	2 - 3 days
+[ ]	Express.js
+Routing, middleware, building REST APIs, error handling middleware	Intermediate	5 - 7 days
+[ ]	Environment Variables
+Using .env files, the dotenv package, never hardcoding secrets	Beginner	1 day
+[ ]	SQL Databases
+Connecting to PostgreSQL or MySQL, writing queries, using ORMs like Prisma	Intermediate	5 - 7 days
+[ ]	MongoDB and Mongoose
+NoSQL document databases, schemas, CRUD operations	Intermediate	4 - 5 days
+[ ]	Authentication
+JSON Web Tokens, sessions, password hashing with bcrypt, OAuth basics	Advanced	5 - 7 days
+[ ]	REST API Design
+HTTP methods, status codes, resource naming conventions, API versioning	Intermediate	3 - 4 days
+ 
+Phase 6  -  Modern Tooling and Ecosystem
+The tools every professional JavaScript developer uses on a daily basis.
+Done	Topic	Difficulty	Est. Time
+[ ]	Git and GitHub
+Commits, branches, merging, pull request workflow, resolving conflicts	Beginner	3 - 4 days
+[ ]	TypeScript Basics
+Static types, interfaces, generics, compiling to JS — why it matters for teams	Intermediate	5 - 7 days
+[ ]	ESLint
+Linting rules, shareable configs, auto-fix, integrating with your editor	Beginner	1 day
+[ ]	Prettier
+Code formatting, configuration file, working alongside ESLint	Beginner	1 day
+[ ]	Vite and Webpack
+How bundlers work, development server, production builds, hot module replacement	Intermediate	3 - 4 days
+[ ]	Jest — Unit Testing
+Writing unit tests, matchers, mocking functions and modules, code coverage	Intermediate	4 - 5 days
+[ ]	Playwright or Cypress
+End-to-end browser testing, selectors, running tests in CI pipelines	Advanced	4 - 5 days
+[ ]	GitHub Actions
+Automated testing on push, deployment pipelines, CI/CD fundamentals	Intermediate	3 - 4 days
+[ ]	Docker Basics
+Containerising a Node.js app, writing a Dockerfile, docker-compose	Advanced	4 - 5 days
+ 
+Phase 7  -  Frameworks (Pick One and Go Deep)
+Do not start here before completing Phases 1 to 3. React is the most in-demand framework as of the 2024 StackOverflow survey at 40.6 percent developer usage.
+Done	Topic	Difficulty	Est. Time
+[ ]	React — Components and JSX
+Functional components, JSX syntax, rendering lists, keys, props	Intermediate	3 - 4 days
+[ ]	React — Hooks
+useState, useEffect, useRef, useContext, writing your own custom hooks	Intermediate	5 - 7 days
+[ ]	React — State Management
+Context API, Redux Toolkit, or Zustand — managing app-wide state	Advanced	5 - 7 days
+[ ]	React — Routing
+React Router v6, dynamic route params, protected routes, nested routes	Intermediate	2 - 3 days
+[ ]	Next.js
+SSR, SSG, ISR, the App Router, API routes, deployment to Vercel	Advanced	7 - 10 days
+[ ]	Vue.js (alternative)
+Options API vs Composition API, the Vue reactivity system, Pinia	Intermediate	7 - 10 days
+[ ]	Svelte (alternative)
+Compiled approach to reactivity, no virtual DOM, SvelteKit	Intermediate	5 - 7 days
+ 
+Phase 8  -  Advanced and Mastery Topics
+Senior-level concepts. Return to this phase after solid hands-on experience with Phases 1 through 7.
+Done	Topic	Difficulty	Est. Time
+[ ]	Design Patterns
+Module, Singleton, Observer, Factory, MVC — what they are and when to use them	Advanced	7 - 10 days
+[ ]	Data Structures in JS
+Linked lists, stacks, queues, binary trees, hash maps — built from scratch in JS	Advanced	7 - 14 days
+[ ]	Algorithms and Big O
+Sorting, searching, time and space complexity — essential for technical interviews	Advanced	14+ days
+[ ]	Memory Management
+Garbage collection, memory leaks, WeakMap, WeakSet, WeakRef	Advanced	3 - 4 days
+[ ]	Performance Optimization
+Debounce, throttle, memoization, understanding virtual DOM diffing	Advanced	4 - 5 days
+[ ]	Web Security (OWASP)
+XSS, CSRF, SQL injection, input sanitisation, HTTPS, content security policy	Advanced	5 - 7 days
+[ ]	WebAssembly
+Compiling C or Rust to WASM, calling it from JS, real performance use cases	Advanced	5 - 7 days
+[ ]	GraphQL
+Queries, mutations, subscriptions, Apollo Client, comparing to REST	Advanced	5 - 7 days
+[ ]	Microservices with Node
+Service architecture, message queues with RabbitMQ or Kafka basics	Advanced	7 - 10 days
+ 
+Top Learning Resources
+Recommended by the global developer community based on quality, depth, and real learning outcomes.
+Resource	Best For	Cost	Level
+javascript.info	Best free JS reference — covers all phases in depth	Free	All levels
+MDN Web Docs	Official browser and language API reference	Free	All levels
+The Odin Project	Full structured curriculum with real projects	Free	Beginner - Intermediate
+freeCodeCamp	Interactive hands-on challenges with certifications	Free	Beginner
+Wes Bos Courses	Practical JS30, Async JS, and React courses	Free and Paid	Intermediate
+Frontend Masters	Deep-dive video courses by industry experts	Paid ~$39/mo	All levels
+Scrimba	Code-along courses directly in the browser	Free and Paid	Beginner - Intermediate
+LeetCode / NeetCode	Algorithm and data structure practice for interviews	Free and Paid	Advanced
+ 
+Final note: The best JavaScript developers build things constantly. After completing each phase, build a real project. Break it. Fix it. Look things up without shame — that is the job. Consistency over two to three hours a day beats occasional marathon sessions every time.
+ 
+JavaScript Mastery Roadmap  -  Keep building.
